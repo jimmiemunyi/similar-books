@@ -1,6 +1,5 @@
 # imports
 import streamlit as st
-from fastai.learner import load_learner
 from fastai.tabular.all import *
 from PIL import Image
 
@@ -51,6 +50,3 @@ My name is Jimmie Munyi. You can connect with me on [Twitter](https://twitter.co
 If you wish to see how Similar Books was created, read this [blog post](https://jimmiemunyi.github.io/blog/projects/tutorial/2021/02/15/Book-Recommendation-Model-Training.html).
 
 '''
-del books
-
-
